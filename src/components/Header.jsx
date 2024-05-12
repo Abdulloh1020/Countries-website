@@ -1,6 +1,6 @@
-import './header.css'
-import World from '../assets/Where in the world_.svg'
-import Group from '../assets/Group 5.svg'
+import './header.css';
+import World from '../assets/Where in the world_.svg';
+import Group from '../assets/Group 5.svg';
 
 
 const Header = ()=>{
@@ -16,7 +16,7 @@ const Header = ()=>{
           </div>
         </div>
       </header>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

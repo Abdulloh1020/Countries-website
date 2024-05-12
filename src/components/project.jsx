@@ -1,30 +1,27 @@
-import './project.css'
+import './project.css';
 import Countries from '../components/Country';
 import axios from 'axios';
 import { useEffect, useRef, useState } from 'react';
-import './project.css'
-import search from '../assets/search.svg'
-import Loading from '../assets/loading.svg'
+import './project.css';
+import search from '../assets/search.svg';
+import Loading from '../assets/loading.svg';
 import Header from './Header';
 
 
 const Project = ()=>{
 
-    const [Search, setSearch] = useState('')  
+    const [Search, setSearch] = useState('');
 
     const [Country, setCount] = useState([]);
 
     const Refrens = useRef();
     
     async function GetElements (){
-      const response = await axios.get('https://restcountries.com/v3.1/all');
-      setCount(response.data);
+      const response = await axios.get('https://restcountries.com/v3.1/all')
+      setCount(response.data)
     };
 
-    useEffect(()=>{;
-      GetElements();
-    },[]);
-
+    useEffect(()=>{GetElements()}, []);
     
 
     

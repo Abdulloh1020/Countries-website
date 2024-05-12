@@ -18,4 +18,4 @@ const Countries = ({data})=>{
     );
 };
 
-export default Countries
+export default Countries;

@@ -4,10 +4,14 @@
     padding: 0px 20px;
 }
 
-.country-img{
+.img-div{
     width: 560px;
-    height: 401px;
     margin-left: 80px;
+    height: 401px;
+}
+
+.country-img{
+    width: 560px;       
     border-radius: 5px;   
 }
 
@@ -17,7 +21,6 @@
     height: 40px;
     position: relative;
     margin-top: 80px;
-    margin-left: 80px;
     margin-bottom: 90px;
     border-radius: 5px;
     border: none;    
@@ -34,6 +37,7 @@
 }
 
 .text-div{
+    margin-left: 120px;
     align-items: center;
     width: 574px;
     height: 323px;
@@ -83,7 +87,7 @@
 
 @media only screen and (max-width: 376px){
 .container{
-    width: 100%;
+    width: 320px;
     margin: 0px auto;
     padding: 0px 28px;
 }
@@ -95,6 +99,7 @@
     height: 32px;
     position: relative;
     margin-top: 40px;
+    margin-right: 0px;
     margin-left: 0px;   
     margin-bottom: 64px;
     border-radius: 5px;
@@ -119,6 +124,7 @@
     margin-left: 0px;
     border-radius: 5px;   
     margin-bottom: 44px;
+    margin-right: 0px;
 }
 
 
@@ -126,31 +132,43 @@
     font-size: 22px;
     font-weight: 800;
     margin-bottom: 16px;
+    margin-right: 0px;
     
+}
+
+.img-div{
+    margin-left: 0px;
+    width: 320px;   
+    margin-right: 0px; 
 }
 
 
 .big-div{
+    width: 344px;
     display: block;
-    margin-bottom: 62px;
+    margin-right: 0px;
 }
 
 
 .text-div{    
-    width: 574px;
-    height: 323px;
+    width: 344px;
+    height: 100px;
     margin-top: 44px;   
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
 .bigger-div{
     display: block;
+    margin-right: 0px;
 }
 
 
 .s-div{   
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-right: 0px;
     margin-left: 0px;
 }   
 
@@ -159,6 +177,7 @@
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 0px;
+    margin-right: 0px;
 }
 
 .strong-text{
@@ -170,6 +189,6 @@
 .end-text{
     display: block;
     margin-top: 0px;
-    margin-bottom: 60px;
+    margin-right: 0px;
 }
 }
