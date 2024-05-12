@@ -1,0 +1,175 @@
+.container{
+    width: 1440px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.country-img{
+    width: 560px;
+    height: 401px;
+    margin-left: 80px;
+    border-radius: 5px;   
+}
+
+.buttonn{
+    background-color: #fff;
+    width: 136px;
+    height: 40px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    border: none;    
+    font-size: 16px;
+    font-weight: 300;  
+    padding-left: 35px; 
+    box-shadow: 0px 0px 7px 0px gray;
+}
+
+.button-img{    
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+.text-div{
+    align-items: center;
+    width: 574px;
+    height: 323px;
+    margin-top: 245px;
+    margin-right: 80px;
+}
+
+.country-name{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 23px;
+    margin-top: 0px;
+}
+
+.p-text{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.strong-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.big-div{
+    display: flex;
+    margin-bottom: 343px;
+}
+
+.end-text{
+    display: block;
+    margin-top: 60px;
+}
+
+.s-div{   
+    margin-top: 6px;
+    margin-left: 117px;
+}   
+
+.bigger-div{
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 376px){
+.container{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 28px;
+}
+
+    
+.buttonn{
+    background-color: #fff;
+    width: 104px;
+    height: 32px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 0px;   
+    margin-bottom: 64px;
+    border-radius: 5px;
+    border: none;    
+    font-size: 14px;
+    font-weight: 300;  
+    padding-left: 50px; 
+    box-shadow: 0px 0px 7px 0px gray;
+}
+
+
+.button-img{    
+    position: absolute;
+    left: 24px;
+    top: 6px;
+}
+
+
+.country-img{
+    width: 320px;
+    height: 229px;
+    margin-left: 0px;
+    border-radius: 5px;   
+    margin-bottom: 44px;
+}
+
+
+.country-name{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    
+}
+
+
+.big-div{
+    display: block;
+    margin-bottom: 62px;
+}
+
+
+.text-div{    
+    width: 574px;
+    height: 323px;
+    margin-top: 44px;   
+}
+
+
+.bigger-div{
+    display: block;
+}
+
+
+.s-div{   
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+}   
+
+
+.p-text{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.strong-text{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.end-text{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+}
