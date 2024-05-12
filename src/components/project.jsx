@@ -10,8 +10,6 @@ import Header from './Header';
 
 const Project = ()=>{
 
-    const [Region, setRegion] = useState('')
-
     const [Search, setSearch] = useState('')  
 
     const [Country, setCount] = useState([]);
@@ -52,7 +50,7 @@ const Project = ()=>{
                   </div>                         
                   <div className='hero-countrydiv'> 
 
-                  {Country.length === 0 ? (<img	src={Loading} className='loading' alt='' />) : 
+                  {Country.length === 0 ? (<img	src={Loading} className='loading' alt='loading' />) : 
                   (Country.filter((item) => {
                     return Search.toLocaleLowerCase() === '' ? item : item.name.common.toLocaleLowerCase().includes(Search);
                   }).map((e) => {
