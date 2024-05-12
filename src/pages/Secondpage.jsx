@@ -31,7 +31,7 @@ const Page = ()=>{
             <div className="big-div">           
             <div className="img-div">    
               <a href={'/'}><button className="buttonn"><img className="button-img" src={shape}/> Back </button></a>          
-              <img className="country-img" src={country.flags?.png} alt="" />
+              <img className="country-img" src={country.flags?.png}  />
             </div>
             <div className="text-div">
              <h2 className="country-name">{country.name?.common}</h2>
