@@ -43,11 +43,11 @@ const Project = ()=>{
                     <input className='hero-input' type='text' ref={Refrens} onChange={(e) => setSearch(e.target.value)} placeholder='Search for a country…'/>
                     <select className='hero-select'  >
                       <option disable selected hidden>Filter by Region</option>
-                      <option onChange={(e)=>setRegion(e.target.value)} className='hero-option'>Africa</option>
-                      <option onChange={(e)=>setRegion(e.target.value)} className='hero-option'>Americas</option>
-                      <option onChange={(e)=>setRegion(e.target.value)} className='hero-option'>Asia</option>
-                      <option onChange={(e)=>setRegion(e.target.value)} className='hero-option'>Europa</option>
-                      <option onChange={(e)=>setRegion(e.target.value)} className='hero-option'>Oceania</option>                  
+                      <option className='hero-option'>Africa</option>
+                      <option className='hero-option'>Americas</option>
+                      <option className='hero-option'>Asia</option>
+                      <option className='hero-option'>Europa</option>
+                      <option className='hero-option'>Oceania</option>                  
                     </select>                                                
                   </div>                         
                   <div className='hero-countrydiv'> 
