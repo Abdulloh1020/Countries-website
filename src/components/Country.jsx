@@ -1,4 +1,4 @@
-
+import './country.css'
 
 const Countries = ({data})=>{
     return (
