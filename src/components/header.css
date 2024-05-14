@@ -11,8 +11,7 @@
     color: black;
 }
 
-.header{
-    
+.header{    
     box-shadow: 0px 2px 4px 0px  grey;   
     padding: 24px 0px;
     background-color: white var(--blue);
@@ -40,41 +39,40 @@
 
 @media only screen and (max-width:376px){
 
-    
 .container{
-    width: 344px;
-    margin: 0px auto;   
+    max-width: 344px;
+    margin: 0px auto;
     padding: 0px 16px;
 }
-    
-.header{
-    
-    box-shadow: 0px 2px 4px 0px  grey;   
-    padding: 30px 0px;
-    background-color: white var(--blue);
 
+
+.header{    
+    box-shadow: 0px 2px 4px 0px  grey;   
+    padding: 24px 0px;
+    background-color: white var(--blue);
 }
 
-
 .header-div{
-    display: flex;   
-    margin-right: 0px;   
-    padding: 0px 0px; 
+    display: flex;
+    width: 343px;
+}
+
+.header-texts{
+    position: relative;
 }
 
 .headerlogo{
-    width: 135px;
-    height: 20px;
-    margin-left: 0px;
-    color:  var(--white);
+   width: 135px;
+   height: 20px;
+   margin-left: 0px;
+   color:  var(--white);
 }
-
 
 .header-mode{
     width: 84px;
-    height: 17px;   
+    height: 17px;
     margin-top: 3px;
-    margin-left: 103px;
+    margin-left: 124px; 
     color: var(--white);   
 }
 

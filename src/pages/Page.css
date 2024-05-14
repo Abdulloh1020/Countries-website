@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 376px){
 .container{
-    width: 320px;
+    max-width: 321px;
     margin: 0px auto;
     padding: 0px 28px;
 }
@@ -100,7 +100,7 @@
     position: relative;
     margin-top: 40px;
     margin-right: 0px;
-    margin-left: 0px;   
+    margin-left: 10px;   
     margin-bottom: 64px;
     border-radius: 5px;
     border: none;    
@@ -121,10 +121,10 @@
 .country-img{
     width: 320px;
     height: 229px;
-    margin-left: 0px;
     border-radius: 5px;   
     margin-bottom: 44px;
     margin-right: 0px;
+    margin-left: 10px;
 }
 
 
@@ -154,7 +154,7 @@
     width: 344px;
     height: 100px;
     margin-top: 44px;   
-    margin-left: 0px;
+    margin-left: 10px;
     margin-right: 0px;
 }
 

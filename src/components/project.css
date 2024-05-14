@@ -54,7 +54,6 @@
     font-size: 14px;
     font-weight: 400;
     box-shadow: 0px 1px 9px 0px grey;
-    
     background-color: white var(--blue);
     color: black var(--white);
 }
@@ -81,7 +80,7 @@
 }
 
 .hero-input{
-    width: 243px;
+    width: 263px;
     margin-left: 0px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -101,7 +100,6 @@
     color: var(--white);
 }
 
-
 .hero-select{
     width: 200px;
     margin-left: 0px;
@@ -118,16 +116,15 @@
     color: black var(--white);
 }
 
-
 .hero-searchdiv{
     position: relative;
     margin-bottom: 32px;
 }
 
-
 .hero-countrydiv{
     display: block;   
     margin-right: 0px;
+    margin-left: 10px;
 }
 
 }
